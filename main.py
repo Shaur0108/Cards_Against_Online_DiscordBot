@@ -87,7 +87,7 @@ async def main_0(ctx):
     await ctx.send(OptionView.question, delete_after = 15)
     view = OptionView(ctx.author)
     await ctx.send(view = view, delete_after = 15)
-    OptionView.option1 = random.choice(truths)
+    OptionView.option1 = random.choice(Question)
     
     
     
